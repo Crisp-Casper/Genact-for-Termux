@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-yes | pkg install openssl rust -y
+yes | pkg install openssl rust git -y
 git clone https://github.com/svenstaro/genact.git
 cd genact
 cargo install --path ./
