@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-yes | pkg install openssl rust git -y
+curl https://raw.githubusercontent.com/Crisp-Casper/Genact-for-Termux/main/updater.sh | bash
 git clone https://github.com/svenstaro/genact.git
 cd genact
 cargo install --path ./
