@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 curl https://raw.githubusercontent.com/Crisp-Casper/Genact-for-Termux/main/updater.sh | bash
-sleep 5
+sleep 2
 pkg install git rust -y
 git clone https://github.com/svenstaro/genact.git
 cd genact
