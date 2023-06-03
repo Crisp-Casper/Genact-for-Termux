@@ -1,3 +1,5 @@
+# Download
+https://f-droid.org/repo/com.termux_118.apk
 # Genact-for-Termux
 installs genact on Termux
 ```
